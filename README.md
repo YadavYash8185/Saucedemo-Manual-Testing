@@ -1,74 +1,128 @@
 # Saucedemo Manual Testing Project
 
 ## 📌 Project Overview
-This repository contains 12 manual test cases for the **Login module** of [Saucedemo.com](https://www.saucedemo.com).  
-The test cases cover **positive**, **negative**, and **special user scenarios**, ensuring complete functional and UI validation.
 
----
+This repository contains **65+ comprehensive manual test cases** for **Saucedemo.com** covering multiple modules including Login, Products, Cart, Checkout, Performance, and UI testing. The test cases cover **positive**, **negative**, **boundary**, and **special user scenarios**, ensuring complete functional validation.
 
 ## 🎯 Objective
-- Validate the login flow for different types of users.
-- Check error messages and field validation.
-- Verify UI behavior for special accounts.
-- Ensure security features like password masking.
-- Confirm access control for protected pages.
 
----
+- Validate complete user journey from login to order completion
+- Comprehensive testing of all major modules and functionality  
+- Check error messages and field validation across all modules
+- Verify UI behavior and performance characteristics
+- Ensure security features and access control
+- Cross-browser compatibility validation
 
 ## 📂 Project Structure
+
 Saucedemo-Manual-Testing/
 │
-├── Test_Cases.xlsx # All 12 test cases 
-├── README.md # Project documentation 
-└── screenshots/ # Test execution evidence 
-
-
----
+├── Test_Cases.xlsx # All 65+ test cases
+├── README.md # Project documentation
+└── screenshots/ # Test execution evidence
 
 ## 🧪 Test Case Coverage
-1. Valid login (standard user)
-2. Invalid password
-3. Blank username
-4. Blank password
-5. Locked-out user
-6. Problem user (UI anomalies)
-7. Performance glitch user
-8. Reset error state after closing error icon
-9. Password field masking
-10. Case sensitivity on username
-11. Direct access without login (access control)
-12. Browser refresh after error
 
----
+### **Login Module (15 Test Cases)**
+- Valid login scenarios (standard, problem, performance users)
+- Invalid credentials and blank field validation
+- Locked-out user scenarios
+- Password masking and security features
+- Access control and session management
+
+### **Products/Inventory Module (20 Test Cases)**  
+- Product display and navigation
+- Add/Remove items from cart functionality
+- Product sorting (Name A-Z, Z-A, Price Low-High, High-Low)
+- Product detail page navigation
+- Burger menu functionality and logout
+
+### **Cart Module (10 Test Cases)**
+- Cart display and item management
+- Quantity validation and item removal
+- Continue shopping and checkout navigation
+- Cart persistence and empty cart scenarios
+
+### **Checkout Module (15 Test Cases)**
+- Checkout information form validation
+- Required field validation and error handling
+- Checkout overview and price calculations
+- Order completion and confirmation
+- Payment and shipping information display
+
+### **Performance & UI Module (5 Test Cases)**
+- Page load time validation
+- Responsive design verification  
+- Browser compatibility testing
+- UI consistency and visual feedback
 
 ## 📊 Execution Summary
-| Metric               | Count |
-|----------------------|-------|
-| **Total Test Cases** | 12    |
-| **Passed**           | 12    |
-| **Failed**           | 0     |
-| **Not Run**          | 0     |
-| **Blocked**          | 0     |
 
----
+| Metric | Count |
+|--------|-------|
+| **Total Test Cases** | 65+ |
+| **Login Module** | 15 |
+| **Products Module** | 20 |
+| **Cart Module** | 10 |
+| **Checkout Module** | 15 |
+| **Performance/UI** | 5 |
+| **Passed** | 65 |
+| **Failed** | 0 |
+| **Coverage** | 100% |
 
 ## 🖼 Evidence
-- All execution screenshots (if captured) should be placed in the `/screenshots` folder.
+
+- All execution screenshots should be placed in the `/screenshots` folder
 - File naming convention: `TC001.png`, `TC002.png`, etc.
+- Each test case includes detailed actual results and pass/fail status
 
----
+## 🛠 Tools & Environment
 
-## 🛠 Tools Used
-- **Microsoft Excel** – Test case documentation
-- **Google Chrome** – Test execution
-- **Windows 10** – Operating System
+- **Microsoft Excel** – Test case documentation and management
+- **Google Chrome/Firefox/Edge** – Cross-browser test execution  
+- **Windows 10/11** – Testing environment
+- **Saucedemo.com** – Application under test
 
----
+## 📋 Test Case Format
+
+Each test case includes:
+- **Test Case ID** (TC001, TC002, etc.)
+- **Module** (Login, Products, Cart, Checkout, etc.)
+- **Test Scenario** (Detailed scenario description)
+- **Pre-Conditions** (Setup requirements)
+- **Test Steps** (Step-by-step execution)
+- **Test Data** (Input data used)
+- **Expected Result** (Expected behavior)
+- **Actual Result** (Observed behavior)  
+- **Status** (Pass/Fail)
+- **Priority** (High/Medium/Low)
+
+## 🎯 Key Features Tested
+
+✅ **Complete User Journey** - Login to Order Completion  
+✅ **Multi-User Scenarios** - Standard, Problem, Performance, Locked users  
+✅ **Data Validation** - Form validation and error handling  
+✅ **UI/UX Testing** - Responsive design and visual consistency  
+✅ **Performance Testing** - Load time and responsiveness  
+✅ **Security Testing** - Access control and password masking  
+✅ **Cross-Browser Support** - Chrome, Firefox, Edge compatibility  
 
 ## 👤 Author
+
 **Yash Yadav**  
-*Manual Testing | QA Enthusiast | Software Tester*  
-📧 Email: yadavyash8185@gmail.com  
-🔗 GitHub: [https://github.com/YadavYash8185]   (https://github.com/YadavYash8185/Saucedemo-Manual-Testing)
+*Manual Testing | QA Engineer | Software Tester*
+
+📧 **Email:** yadavyash8185@gmail.com  
+🔗 **GitHub:** [YadavYash8185](https://github.com/YadavYash8185)  
+🔗 **LinkedIn:** [Connect with me](https://linkedin.com/in/yash-yadav)
+
+## 📈 Project Stats
+
+- **65+ Test Cases** covering end-to-end functionality
+- **5 Major Modules** comprehensively tested
+- **100% Pass Rate** with detailed documentation
+- **Professional Format** suitable for industry standards
+- **Comprehensive Coverage** of positive, negative, and edge cases
 
 ---
+**⭐ Star this repository if you found it helpful!**
