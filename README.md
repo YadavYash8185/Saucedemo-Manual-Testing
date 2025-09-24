@@ -114,7 +114,7 @@ Each test case includes:
 
 📧 **Email:** yadavyash8185@gmail.com  
 🔗 **GitHub:** [YadavYash8185](https://github.com/YadavYash8185)  
-🔗 **LinkedIn:** [Connect with me](https://linkedin.com/in/yash-yadav)
+🔗 **LinkedIn:** [LinkedIn Id](https://linkedin.com/in/yash-yadav)
 
 ## 📈 Project Stats
 
